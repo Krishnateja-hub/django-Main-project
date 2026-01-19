@@ -1,0 +1,14 @@
+{%extends 'myapp/base.html'%}
+{%block body_block%}
+<div class="container">
+    <p class="h1 text-center">Add Product</p>
+    <section>
+        <form method="POST" enctype='multipart/form-data'>
+            {%csrf_token%}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-success btn-sm">Upload</button>
+        </form>
+    </section>
+
+</div>
+{%endblock%}

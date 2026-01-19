@@ -1,0 +1,24 @@
+{%block body_block%}
+<div class="container">
+    <p class="h1 text-center">show page</p>
+    <section>
+       <div class="row">
+        <div class="col-md-5"></div>
+          <div class="card">
+            <div class="card-header">
+                <h3 class="h2 text-center text-primary">Student Details</h3>
+            </div>
+            <div class="card-body">
+                <p class="h3">ID : {{student.id}}</p>
+                <p class="h3">Name : {{student.name}}></p>
+                <p class="h3">Age : {{student.age}}></p>
+                <p class="h3">Email : {{student.email}}></p>
+
+            </div>
+          </div>
+       </div> 
+
+        
+    </section>
+</div>
+{%endblock%}

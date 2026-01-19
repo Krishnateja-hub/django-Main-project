@@ -1,0 +1,55 @@
+{%extends 'myapp/base.html'%}
+{% load static %}
+{%block body_block%}
+<div class="container">
+  <p class="h1 text-center">students page</p>
+  <section>
+    <a href="{%url 'create_student'%} " class="btn btn-outline-amber btn-sm">Register Student</a>
+  </section>
+  <section>
+    {% if student_list%}
+    <p class="h2 text-success">Records found</p>
+    <table class="table table-bordered table-striped">
+      <thead class="bg-primary text-center text-white">
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Email</th>
+          <th>Actions</th>
+          <th>Image</th>
+        </tr>
+
+      </thead>
+      <tbody>
+        {%for s in student_list%}
+        <tr>
+          <td>{{s.id}}</td>
+          <td>{{s.name}}</td>
+          <td>{{s.age}}</td>
+          <td>{{s.email}}</td>
+
+          <td>
+            <a href="{%url 'edit_student' s.id%}" class="btn btn-warning btn-sm">Edit</a>
+            <a href="{%url 'delete_student' s.id%}" class="btn btn-danger btn-sm">Delete</a>
+            <a href="{%url 'show_student' s.id%}" class="btn btn-primary btn-sm">Show</a>
+          </td>
+          <td>
+            {% if s.images %}
+            <img src="{{ s.images.url }}" alt="student image" height="100">
+            {% else %}
+            <span>No Image</span>
+            {% endif %}
+          </td>
+
+        </tr>
+        {%endfor%}
+
+      </tbody>
+    </table>
+    {%else%}
+    <p class="h1 text-danger text-center">Records not found</p>
+    {%endif%}
+  </section>
+</div>
+{%endblock%}
