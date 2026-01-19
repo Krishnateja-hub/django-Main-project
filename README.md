@@ -34,3 +34,17 @@ This project performs basic CRUD operations and helps understand full-stack deve
 
 ## Author
  CH.KRISHNA TEJA SRI
+![Project Screenshot](models.png.png)
+![Project Screenshot](forms.jng.png)
+![Project Screenshot](views1.png.png)
+![Project Screenshot](views2.png.png)
+![Project Screenshot](urls.png.png)
+![Project Screenshot](studentstemplate.jng.png)
+![Project Screenshot](studenttemplate2.jng.png)
+![Project Screenshot](output.jng.png)
+![Project Screenshot](registeroutput.jng.png)
+
+
+
+
+ 
