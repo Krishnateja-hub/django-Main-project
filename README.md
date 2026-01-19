@@ -36,6 +36,13 @@ This project performs basic CRUD operations and helps understand full-stack deve
  CH.KRISHNA TEJA SRI
 
 ![Description of models](screenshots/models.png.png)
-![Description of forms](screenshots/forms.jng.png)
+![Description of forms](screenshots/forms.jpg.png)
+![Description of views1](screenshots/views1.png.png)
+![Description of urls](screenshots/urls.png.png)
+![Description of studentstemplate](screenshots/studentstemplate.jpg.png)
+![Description of studenttemplate2](screenshots/studenttemplate2.jpg.png)
+![Description of delete](screenshots/delete.png.png)
+![Description of output](screenshots/output.jpg.png)
+![Description of registeroutput](screenshots/registeroutput.jpg.png)]
 
  
