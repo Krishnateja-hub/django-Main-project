@@ -35,5 +35,7 @@ This project performs basic CRUD operations and helps understand full-stack deve
 ## Author
  CH.KRISHNA TEJA SRI
 
+![Description of models](screenshots/models.png.png)
+![Description of forms](screenshots/forms.jng.png)
 
  
